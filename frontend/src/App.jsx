@@ -7,7 +7,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 function App() {
   return (
-    <> 
+    <>
       <NavbarComponent />
       <BrowserRouter>
         <Routes>
@@ -16,10 +16,8 @@ function App() {
           <Route path="/edit/:id" element={<EditProduct />} />
         </Routes>
       </BrowserRouter>
-
-      <ToastContainer />
+      <ToastContainer /> 
     </>
   );
 }
-
 export default App;
